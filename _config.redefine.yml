@@ -45,12 +45,12 @@ style:
   first_screen:
     enable: true
     background_image:
-      light: https://evan.beee.top/img/wallhaven-wqery6-light.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      light: https://i.328888.xyz/2023/03/02/6FARz.jpeg # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
       dark: https://evan.beee.top/img/wallhaven-wqery6-dark.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#d1d1b6" # first screen title color (dark mode)
-    description: Theme Redefine # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    description: shinka's blog # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
     custom_font: # custom font for the first screen
       enable: false
       font_family: # the font family name of the url below
@@ -278,7 +278,7 @@ fontawesome: # select fontawesome versions you want to use, in order to reduce t
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  runtime: true # show website running time or not
+  runtime: false # show website running time or not
   start_time: 2022/8/17 11:45:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
   customize:  # customize footer message, can be html code
   icp: # ICP record number of your website, Can be null
