@@ -20,6 +20,9 @@ style:
 
   # Favicon (You can use local image or image external link)
   favicon: /images/redefine-logo.svg # favicon of the site
+  og_image: # og:image of the site
+    enable: false
+    image_url: # image url
 
   # Article image align position
   article_img_align: center # value: left | center
@@ -50,7 +53,15 @@ style:
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#d1d1b6" # first screen title color (dark mode)
-    description: shinka's blog # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    # description: shinka's blog # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    font_sizes:
+      title: 2.8rem # first screen title font size
+      subtitle: 1.5rem # first screen subtitle font size
+    line_height: 1.2 # first screen title line height
+    title: shinka's blog # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    subtitle: 
+      enable: false
+      list: []
     custom_font: # custom font for the first screen
       enable: false
       font_family: # the font family name of the url below
@@ -216,6 +227,7 @@ comment:
   # See: https://github.com/imaegoo/twikoo
   twikoo:
     visitor: true
+    version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
     env_id: # Vercel or Tencent Cloud Function environment ID
     region: # environment region. If select Guangzhou, fill in "ap-guangzhou". (optional)
 
@@ -244,6 +256,10 @@ lazyload:
 # ---------------------------------------------------------------------------------------
 cdn:
   enable: false
+  use: aliyun # values: jsdelivr | unpkg | aliyun 
+  # aliyun cdn is funded by myself, so if you want to make it work longer, please donate to me.
+  # For donation, please see https://github.com/EvanNotFound/hexo-theme-redefine/blob/dev/DONATION.md
+  # Thank you for your support.
 
 # ---------------------------------------------------------------------------------------
 # PJAX
@@ -259,7 +275,7 @@ recommended_article: # 文章推荐，需要 npm install nodejieba
   title: 推荐阅读
   icon: fa-solid fa-bookmark
   max_count: 3
-  placeholder_img: https://evan.beee.top/img/wallhaven-wqery6-light.webp
+  placeholder_img: /images/wallhaven-wqery6-light.webp
   # 不展示文章推荐：
   # front-matter 使用 skip_recommended_article: true 关闭
   # 不在以下文件夹文章中展示文章推荐 根目录是source/
@@ -267,18 +283,20 @@ recommended_article: # 文章推荐，需要 npm install nodejieba
     - wiki/
 
 # ---------------------------------------------------------------------------------------
-# Fontawesome
+# Fontawesome Pro v6.2.1
 # ---------------------------------------------------------------------------------------
 fontawesome: # select fontawesome versions you want to use, in order to reduce the loading time, select as few as possible
   thin: false # use fontawesome thin version or not
   light: false # use fontawesome light version or not
   duotone: false # use fontawesome duotone version or not
+  sharp_solid: false # use fontawesome sharp-solid version or not
 
 # ---------------------------------------------------------------------------------------
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
   runtime: false # show website running time or not
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>' # footer icon, write fontawesome html code here
   start_time: 2022/3/1 00:45:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
   customize:  # customize footer message, can be html code
   icp: # ICP record number of your website, Can be null
@@ -297,6 +315,7 @@ inject:
   footer: # inject code into <footer> tag
     - 
     - 
+
 # ---------------------------------------------------------------------------------------
 # Theme plugins
 # ---------------------------------------------------------------------------------------
@@ -312,11 +331,13 @@ plugins:
         artist: 
         url: 
         cover: 
-
+  mermaid: # Mermaid JS
+    enable: false # enable mermaid or not
+    version: "9.3.0" # default v9.3.0
 
 # ---------------------------------------------------------------------------------------
 # Redefine Theme version (Please dont modify it)
 # Please go to github to update the latest version frequently
 # Github: https://github.com/EvanNotFound/hexo-theme-redefine
 # ---------------------------------------------------------------------------------------
-version: 1.1.6
+version: 1.2.1
