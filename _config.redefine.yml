@@ -48,7 +48,7 @@ style:
   first_screen:
     enable: true
     background_image:
-      light: https://i.328888.xyz/2023/03/02/6FARz.jpeg # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      light: https://img.paulzzh.com/touhou/random # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
       dark: https://evan.beee.top/img/wallhaven-wqery6-dark.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
     title_color:
       light: "#fff" # first screen title color (light mode)
