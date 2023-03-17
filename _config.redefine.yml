@@ -78,13 +78,13 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
-  enable: false 
+  enable: true 
   links:
-    github:  # your GitHub URL
+    github: https://github.com/Dedicatus5457 # your GitHub URL
     instagram: # your Instagram URL
-    zhihu:  # your ZhiHu URL
-    twitter:  # your twitter URL
-    email:  # your email
+    zhihu: https://www.zhihu.com/people/hui-chi-tu-de-yu-68 # your ZhiHu URL
+    twitter: https://twitter.com/Dedicatus545_7 # your twitter URL
+    email: shinka830@outlook.jp # your email
     # ...... # you can add more
 
 # ---------------------------------------------------------------------------------------
