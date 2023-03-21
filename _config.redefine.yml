@@ -159,7 +159,7 @@ code_block:
   custom_font: # custom font family, default: Ubuntu Mono
     enable: false
     font_family: # font family name
-    font_url: # font url
+    font_url: # The url to the font stylesheet file (css file)
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
@@ -237,6 +237,12 @@ comment:
 # ---------------------------------------------------------------------------------------
 friend_links:
   columns: 2 # number of columns. 2 or 3
+
+# ---------------------------------------------------------------------------------------
+# Tags Page
+# ---------------------------------------------------------------------------------------
+tags:
+  style: blur # blur | cloud
 
 # ---------------------------------------------------------------------------------------
 # RSS
@@ -341,4 +347,4 @@ plugins:
 # Please go to github to update the latest version frequently
 # Github: https://github.com/EvanNotFound/hexo-theme-redefine
 # ---------------------------------------------------------------------------------------
-version: 1.2.1
+version: 1.2.3
