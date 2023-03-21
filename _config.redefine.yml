@@ -65,7 +65,7 @@ style:
     custom_font: # custom font for the first screen
       enable: false
       font_family: # the font family name of the url below
-      font_url:  # The url to the font file
+      font_url:  # The url to the font stylesheet file (css file)
 
   # Scroll style settings
   scroll:
@@ -73,6 +73,25 @@ style:
       enable: true 
     percent: # reading progress percent
       enable: false
+
+# ---------------------------------------------------------------------------------------
+# Custom Settings
+# ---------------------------------------------------------------------------------------
+custom:
+  font: # custom font for the whole site
+    chinese: # custom font for Chinese
+      enable: false
+      font_family:  # the font family name of the url below
+      font_url:  # The url to the font stylesheet file (css)
+    english: # custom font for English
+      enable: false
+      font_family:  # the font family name of the url below
+      font_url:  # The url to the font stylesheet file (css)
+  formats: # custom font styles for the whole site
+    font_size: 16px # font size
+    line_height: 1.5 # line height
+
+
 
 # ---------------------------------------------------------------------------------------
 # Social contact link
@@ -275,7 +294,7 @@ pjax:
   enable: true
 
 # ---------------------------------------------------------------------------------------
-# Article recommendation (transplant from Volantis)
+# Article recommendation (transplanted from Volantis)
 # ---------------------------------------------------------------------------------------
 recommended_article: # 文章推荐，需要 npm install nodejieba
   enable: false
@@ -343,8 +362,8 @@ plugins:
     version: "9.3.0" # default v9.3.0
 
 # ---------------------------------------------------------------------------------------
-# Redefine Theme version (Please dont modify it)
+# Redefine Theme version (DELETE THIS PART IN YOUR _config.redefine.yml)
 # Please go to github to update the latest version frequently
 # Github: https://github.com/EvanNotFound/hexo-theme-redefine
 # ---------------------------------------------------------------------------------------
-version: 1.2.3
+version: 1.2.3 #DELETE THIS LINE IN YOUR _config.redefine.yml
