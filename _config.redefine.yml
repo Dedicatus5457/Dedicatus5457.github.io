@@ -80,9 +80,9 @@ style:
 custom:
   font: # custom font for the whole site
     chinese: # custom font for Chinese
-      enable: false
-      font_family:  # the font family name of the url below
-      font_url:  # The url to the font stylesheet file (css)
+      enable: true
+      font_family: mi-sans # the font family name of the url below
+      font_url: https://fastly.jsdelivr.net/npm/misans@3.1.1/lib/misans-400-regular.min.css # The url to the font stylesheet file (css)
     english: # custom font for English
       enable: false
       font_family:  # the font family name of the url below
