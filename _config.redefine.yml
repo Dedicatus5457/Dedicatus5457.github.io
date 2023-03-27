@@ -49,7 +49,7 @@ style:
     enable: true
     background_image:
       light: https://img.paulzzh.com/touhou/random # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
-      dark: https://evan.beee.top/img/wallhaven-wqery6-dark.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      dark: https://img.paulzzh.com/touhou/random # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#d1d1b6" # first screen title color (dark mode)
@@ -70,9 +70,9 @@ style:
   # Scroll style settings
   scroll:
     progress_bar: # reading progress bar
-      enable: true 
+      enable: false 
     percent: # reading progress percent
-      enable: false
+      enable: true
 
 # ---------------------------------------------------------------------------------------
 # Custom Settings
