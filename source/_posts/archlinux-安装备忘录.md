@@ -15,7 +15,7 @@ Pacman -S wqy-zenhei adobe-source-han-serif-cn-fonts # 其实只安装第一个�
 ```
 vim /etc/locale.gen # 当然也可以使用其他编辑器如:vi nano emacs等等
 ```
-往下翻找到 `zh_CN.UTF-8 UTF-8` 行，如果您使用vim，那可以在Normal-mode下输入/zh_CN.UTF-8 UTF-8更快的找到此字符串的所在位置。然后删除`zh_CN.UTF-8 UTF-8`前面的#符号取消注释并保存退出此文件
+往下翻找到 `zh_CN.UTF-8 UTF-8` 行，如果您使用vim/nvim，那可以在Normal-mode下输入/zh_CN.UTF-8 UTF-8更快的找到此字符串的所在位置。然后删除`zh_CN.UTF-8 UTF-8`前面的#符号取消注释并保存退出此文件
 
 回到终端(tty)
 输入
@@ -52,7 +52,11 @@ HandleLidSwitch定义笔记本盖上盖子后触发的操作，默认=suspend，
 ```
 systemctl restart systemd-logind
 ```
+or
 
-~~先写到这里，之后遇到问题再更新本文~~
+```
+service systemd-logind restart
+```
+
 
 
