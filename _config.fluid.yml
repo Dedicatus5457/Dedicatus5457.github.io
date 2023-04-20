@@ -964,7 +964,7 @@ about:
 # 通过 hexo new page 命令创建的页面
 # Custom Page through `hexo new page`
 #---------------------------
-page:
+copyright:
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
