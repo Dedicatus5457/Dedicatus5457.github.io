@@ -25,7 +25,7 @@ locale-gen  #重新生成locale并生效
 然后重复上面的操作使用pacman安装中文字体，如查找不到此包，请输入 `pacman -Syu` 更新并同步本地pacman软件包库。
 
 ## 安装archlinuxcn软件源内的软件包安装无法校验PGP签名公钥
-因为您本地并没有archlinuxcn源的密钥环，所以无法校验软件包PGP签名故无法安装，
+因为本地并没有archlinuxcn源的密钥环，所以无法校验软件包PGP签名故无法安装，
 ```
  pacman报错:==> 错误： 一个或多个 PGP 签名无法校验！
 ==> 错误：Makepkg 无法构建 xxxxxx 
