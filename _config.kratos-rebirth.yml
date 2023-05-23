@@ -96,7 +96,7 @@ psr:
   
 # Post Page 文章页配置
 posts:
-  show_cc: true
+  show_cc: false
   donate: false
   share: true
   comments: 
@@ -184,7 +184,7 @@ widgets:
 - category
 - tagcloud
 - posts
-avatarUri: /images/avatar.webp
+avatarUri: /images/avatar_1.png
 mobile_toc: 
   hide: false
   hide_id: false
