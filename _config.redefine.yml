@@ -27,7 +27,7 @@ defaults:
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: https://gravatar.com/userimage/224709411/ea82f0dd895d2c4bbaa18e92f21ce40b.jpeg?size=256
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -116,7 +116,7 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: Welcome 
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
@@ -152,16 +152,16 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
+      github:  https://github.com/Dedicatus5457 # your GitHub URL
       instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
+      zhihu:  https://www.zhihu.com/people/hui-chi-tu-de-yu-68 # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email:  houqiyao@outlook.in # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -278,7 +278,7 @@ articles:
     min2read: true # Whether to display reading time
   # Author label
   author_label: 
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
   # Code block settings
@@ -323,7 +323,7 @@ articles:
 # Docs: https://redefine-docs.ohevan.com/posts/comment
 comment:
   # Whether to enable comment
-  enable: true
+  enable: false
   # Comment system
   system: waline # waline, gitalk, twikoo, giscus
   # System configuration
